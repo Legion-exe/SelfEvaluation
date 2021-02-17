@@ -60,20 +60,38 @@ Please do this after each finished codelab. It will help us in keeping track of 
 - (NA - Video has to be seen againg)
 9. [:heavy_check_mark:] **Of what types can we create an array?**
    
-- Every type you want, but there can only be datas of the defined type in it.  
+- Every type you want, but there can only be datas of the defining type in it.  
 10. [:heavy_check_mark:] **Can the size of an array change after instantiation?**
     
 - Nope, workaround is to copy the existing array in a bigger one.
-11. [:x:] **What is the main difference (in use-case, not structure) of an If/Else statement and a Switch statement?**
-12. [:x:] **What is the main difference between primitive data types and reference types in Java?**
-13. [:x:] **What is the main difference between a While and Do-While loop (in execution, not structure)?**
-14. [:x:] **What is the main difference between a For and Foreach loop (in use-case, not structure)?**
+11. [:heavy_check_mark:] **What is the main difference (in use-case, not structure) of an If/Else statement and a Switch statement?**
+    
+- If/Else allows the "result area" to be = but also bigger or smaller (operator <,> etc can be used) while Switch statement is limited to = (case x is valid when output of expression is =x, it is more restrictive).
+12. [:heavy_check_mark:] **What is the main difference between primitive data types and reference types in Java?**
+    
+- Primitive data types 'owns' their value/data, while reference only points to it (+ they are not located in the same memory, even if it is still a bit obscure to me)
+13. [:heavy_check_mark:] **What is the main difference between a While and Do-While loop (in execution, not structure)?**
+    
+- Do while executes the function and then check the condition, while "while" checks the condition and then executes the function (method is used one more time with Do-While for the same parameters).
+14. [:heavy_check_mark:] **What is the main difference between a For and Foreach loop (in use-case, not structure)?**
+    
+- For allows the dev to limits the "area" with an operator in the condition, while Foreach will apply the method to each of the element of the array.
 15. [:x:] **A variable declared within the opening and closing parenthesis of a method is called a ____ variable?**
-16. [:x:] **Why would you choose `long` over `int`?**
-17. [:x:] **What's the difference between `long` and `float`?**
-18. [:x:] **What value (`1/2` or `0.5` or `0`) will be printed for the following code? `System.out.println(1/2);`? Explain why?**
-19. [:x:] **What is the difference between `.java` and `.class` files?**
-20. [:x:] **What is the output of following code?**
+    
+- parameter (thanks Oracle docs...)
+16. [:heavy_check_mark:] **Why would you choose `long` over `int`?**
+    
+- They do not have the same "amplitude" in terms of numbers that can be handled. For very large numbers, int are limited. It is the only reason for me as int takes less memory, so will be preferably chosen.
+17. [:heavy_check_mark:] **What's the difference between `long` and `float`?**
+    
+- float allows the decimal
+18. [:heavy_check_mark:] **What value (`1/2` or `0.5` or `0`) will be printed for the following code? `System.out.println(1/2);`? Explain why?**
+    
+- It will print 0 by default. I can't explain really, but I would say that for the other outputs we should have initialized a variable and give it the proper type (float for the O.5 result and try String for the result containing "/" for example)
+19. [:heavy_check_mark:] **What is the difference between `.java` and `.class` files?**
+    
+- a java file is where the code is edited while class file is the "compilated" java file.
+20. [:heavy_check_mark:] **What is the output of following code?**
 ```java
 boolean isTrue = true;
 if(isTrue != false){
@@ -82,6 +100,8 @@ if(isTrue != false){
 System.out.println("It is false");
 ```
 
+- "It is true", because variable isTrue=true and therefore, is not equal to false. 
+- (After thesting it, I have to admit I didn't paid attention to the {}, leading the output to be the two print...)
 ### Questions OOP
 1. [:x:] **The term "instance variable" is another name for ___ ? And, what is it exactly?**
 2. [:x:] **The term "class variable" is another name for ___ ?**
