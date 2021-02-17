@@ -101,9 +101,13 @@ System.out.println("It is false");
 ```
 
 - "It is true", because variable isTrue=true and therefore, is not equal to false. 
-- (After thesting it, I have to admit I didn't paid attention to the {}, leading the output to be the two print...)
+- (After thesting it, I have to admit I didn't paid attention to the {}, leading the output to be the two print because the block "if" is finished and there is no "else"...)
 ### Questions OOP
+
+- I still have to watch the video again, already did for the previous stuff but not yet for OOP (also, waiting them to be available :D)
 1. [:x:] **The term "instance variable" is another name for ___ ? And, what is it exactly?**
+   
+- 
 2. [:x:] **The term "class variable" is another name for ___ ?**
 3. [:x:] **What are parameters?**
 4. [:x:] **What are arguments?**
@@ -112,20 +116,35 @@ System.out.println("It is false");
 7. [:x:] **What's state? What's behavior?**
 8. [:x:] **What is an instance?**
 9. [:x:] **How do we create an object from a class?**
+   
+- Declare the variable and object and set a constructor?
 10. [:x:] **What is the value `null`? What types can hold `null`?**
+    
+- Null is different from zero, it means there is no data. All relative type can hold it (they will not point to anything)
 11. [:x:] **What is an object reference?**
 12. [:x:] **What is data encapsulation? What role do the access modifiers play in it? Provide all access modifiers.**
 13. [:x:] **What is a constructor?**
 14. [:x:] **What is the default constructor?**
+    
+- It is a constructor without any set parameter
 15. [:x:] **What is a package? Why do we use them?**
+    
+It is like a pot where you can put the different java files containing the classes. Using the same "package" leads those files to be linked. You can use a class from another file in the same package, while let them be in a different files allow you to use "generic class" in multiple package (réutilisation du code).
 16. [:x:] **What is an enum and when should you use one?**
+    
+- Enums are like dropdown list, they allows you to use a predefined set or value (so as said, you can use them when you are sure you will not need anything else in term of value that what's in the enum class)
 17. [:x:] **What's the difference between a static method and an instance method?**
 18. [:x:] **What is a constant?**
+    
+- A constant is a variable that cannot be changed (value is fixed). It can be done via Final keyword
 19. [:x:] **What is inheritance? Why is it useful? Give an example.**
 20. [:x:] **What is composition? Why is it useful? Give an example.**
 21. [:x:] **What is polymorphism? Why is it useful? Give an example.**
 22. [:x:] **What is meant with the sentence 'Class A extends / inherits from Class B'?**
 23. [:x:] **What is the difference between a (parent) class and an (abstract) parent class?**
+    
+- Abstract classes are only there to manage/organize your "children" classes. They cannot be used to define them or give a generic set of parameters, while parents classes do.
+- Also, abstract can force the "children" classes to set up specific methods (the ones that are in the abstract class, as seen those cannot be specified)
 24. [:x:] **What's the difference between an abstract class and an interface?**
 25. [:x:] **What is meant with the sentence 'Class A implements (interface) A'?**
 26. [:x:] **How does an object gets 'destroyed' and thrown out of the memory?**
@@ -145,14 +164,14 @@ The assignments themselves are written down in this file, in the following secti
 Sometimes, tests have been written to validate your solution. Use (run) them.  
 
 ### Codelab 01
-1. [:x:] Create a method that prints the string "Hello World!"
-2. [:x:] Create a method (`printAny`) that prints any string you give it.
-3. [:x:] Using method overloading, create two methods with the same name (`printNumber`).
+1. [:heavy_check_mark:] Create a method that prints the string "Hello World!"
+2. [:heavy_check_mark:] Create a method (`printAny`) that prints any string you give it.
+3. [:heavy_check_mark:] Using method overloading, create two methods with the same name (`printNumber`).
     - Both have one parameter.
     - Both should print a message, although the message differs based on the type (int or double):  
         - `I'm an int: {parameter}` in case of the actual argument being of type `int`.
         - `I'm a double: {parameter}` in case of the actual argument being of type `double`.
-4. [:x:] Create a method that returns the number it receives plus 1
+4. [:heavy_check_mark:] Create a method that returns the number it receives plus 1
     - E.g. 4 is provided as an argument, then value 5 is returned
 
 ### Codelab 02
