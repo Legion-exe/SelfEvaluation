@@ -175,11 +175,11 @@ Sometimes, tests have been written to validate your solution. Use (run) them.
     - E.g. 4 is provided as an argument, then value 5 is returned
 
 ### Codelab 02
-1. [:x:] Create a method that returns an array with all the letters of the alphabet.
+1. [:heavy_check_mark:] Create a method that returns an array with all the letters of the alphabet.
     - Check the test to see what is required exactly.
         - E.g. is it required to include both lower and upper-casing characters?
     - Run the tests (before and after having implemented your solution) 
-2. [:x:] Create a method that replaces the 3th element of a String[] array by "do".
+2. [:heavy_check_mark:] Create a method that replaces the 3th element of a String[] array by "do".
     - Run the tests (before and after having implemented your solution) 
     - Think about edge cases: empty array, null,... 
         - Test scenario's:
@@ -188,9 +188,9 @@ Sometimes, tests have been written to validate your solution. Use (run) them.
 
 
 ### Codelab 03
-1. [:x:] Create a method that generates a 2D pattern (as a 2D array) based on a provided size (parameter).
-2. [:x:] Call the method and loop over the 2D array to print its contents to the console.
-3. [:x:] Based on the examples below, the pattern should be clear.
+1. [:heavy_check_mark:] Create a method that generates a 2D pattern (as a 2D array) based on a provided size (parameter).
+2. [:heavy_check_mark:] Call the method and loop over the 2D array to print its contents to the console.
+3. [:heavy_check_mark:] Based on the examples below, the pattern should be clear.
 4. [:x:] Run the tests (before and after having implemented your solution)
 
 Some examples (size = 2), printed to the console
@@ -224,10 +224,10 @@ Some examples (size = 5), printed to the console
 ```
 
 ### Codelab 04
-1. [:x:] Create a method that returns the month in English by its number.
+1. [:heavy_check_mark:] Create a method that returns the month in English by its number.
     - Run the tests (before and after having implemented your solution.
         - The tests will also show what the exact requirements are!
-2. [:x:] Create a method that takes in a number of elements and calculates a price based on the following rules:
+2. [:heavy_check_mark:] Create a method that takes in a number of elements and calculates a price based on the following rules:
     - The first 10 elements costs 5 euro each.
     - The following 5 elements costs 4 euro each.
     - Every next element costs 3 euro each.
@@ -243,7 +243,7 @@ Some examples (size = 5), printed to the console
                 - amountOfItems == 16, then price == 73
                 - amountOfItems == 20, then price == 85
                 - amountOfItems == -1, then price == 0
-3. [:x:] Create a method that returns the following:
+3. [:heavy_check_mark:] Create a method that returns the following:
     - When the input is 1: "It's something"
     - When the input is 2: "That's more like it"
     - When the input is 3: "Way to go"
@@ -252,10 +252,10 @@ Some examples (size = 5), printed to the console
 
 ### Codelab 05
 
-1. [:x:] Create an `Alarm`.
-2. [:x:] Make sure we can use a no-arg constructor and an single argument (the sound to make) constructor. By default, 
+1. [:heavy_check_mark:] Create an `Alarm`.
+2. [:heavy_check_mark:] Make sure we can use a no-arg constructor and an single argument (the sound to make) constructor. By default, 
 the sound to make is "BEEP". 
-3. [:x:] The `makeSound` method(s) should return an array containing x-times the sound to make.
+3. [:heavy_check_mark:] The `makeSound` method(s) should return an array containing x-times the sound to make.
     - We should be able to provide x, although it should not be required.
     - If x is not provided, the returned value should contain the 'sound to make' 3 times.
         - 3 is the default amount of times to make a sound.
