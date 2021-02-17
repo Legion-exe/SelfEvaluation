@@ -37,15 +37,33 @@ Please do this after each finished codelab. It will help us in keeping track of 
 1. [:heavy_check_mark:] **What kind of types are there in Java?**
 
   - There are two types: primitive and relative, which bot contains lots of "subtypes"(int, double, long, char, String,...)
-2. [:x:] **What does 'declaring and initializing a variable' mean?**
-3. [:x:] **What is a statement? What is an expression? What is an operator?**
-4. [:x:] **What is `casting`? E.g. "I'm casting the value to an `int`"**
-5. [:x:] **What is the signature of a method?**
-6. [:x:] **What is method overloading?**
-7. [:x:] **What is method overriding (OOP)?**
+2. [:heavy_check_mark:] **What does 'declaring and initializing a variable' mean?**
+   
+- Declaring a variable is like telling the system that this variable exists, will be used and is a certain type. Initializing a variable is giving it a value (depending on the type of variable it is - initializing needs a declaration).
+3. [:heavy_check_mark:] **What is a statement? What is an expression? What is an operator?**
+   
+- A statement in a complete affirmation with a "=" and a ";" (1+1=2; for example, a=b+1; etc...) while an expression is a part of the statement (1+1, b+1...). The operators are the mathematic signs like -, +, / etc but also the java specific ones like ++, --, != etc
+4. [:heavy_check_mark:] **What is `casting`? E.g. "I'm casting the value to an `int`"**
+   
+- Casting is "forcing" a variable to endorse another type. For example, int a=1; and float b= (float) a /2; you will "force" variable a to be a float in the b declaration.
+5. [:heavy_check_mark:] **What is the signature of a method?**
+   
+- It is the parameters that defines the method: access type, type of variable, name etc...The whole set lead the method to be unique (two methods cannot have the same signature). 
+6. [:heavy_check_mark:] **What is method overloading?**
+   
+- It is using the same method but with different parameters (that leads to a different signature, which means the system accepts it). When running, the system will choose the correct one depending on the parameters type.
+7. [:heavy_check_mark:] **What is method overriding (OOP)?**
+   
+- An override let a specific method "replaces" the original one (to read: the one that should normally be used by the system).
 8. [:x:] **What is meant with "arguments are passed-by-value"?**
-9. [:x:] **Of what types can we create an array?**
-10. [:x:] **Can the size of an array change after instantiation?**
+   
+- (NA - Video has to be seen againg)
+9. [:heavy_check_mark:] **Of what types can we create an array?**
+   
+- Every type you want, but there can only be datas of the defined type in it.  
+10. [:heavy_check_mark:] **Can the size of an array change after instantiation?**
+    
+- Nope, workaround is to copy the existing array in a bigger one.
 11. [:x:] **What is the main difference (in use-case, not structure) of an If/Else statement and a Switch statement?**
 12. [:x:] **What is the main difference between primitive data types and reference types in Java?**
 13. [:x:] **What is the main difference between a While and Do-While loop (in execution, not structure)?**
