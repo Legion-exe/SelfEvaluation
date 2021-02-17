@@ -34,8 +34,9 @@ In **this file**, please replace every :x: with a check mark :heavy_check_mark: 
 Please do this after each finished codelab. It will help us in keeping track of your progress.
 
 ### Questions Basic
-1. [:x:] **What kind of types are there in Java?**
-  '-' There are two types: primitive and relative, which bot contains lots of "subtypes"(int, double, long, char, String,...)
+1. [:heavy_check_mark:] **What kind of types are there in Java?**
+
+  - There are two types: primitive and relative, which bot contains lots of "subtypes"(int, double, long, char, String,...)
 2. [:x:] **What does 'declaring and initializing a variable' mean?**
 3. [:x:] **What is a statement? What is an expression? What is an operator?**
 4. [:x:] **What is `casting`? E.g. "I'm casting the value to an `int`"**
