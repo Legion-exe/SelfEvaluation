@@ -282,13 +282,13 @@ But we will not include them in our solution!
 
 ### Codelab 07
 
-- [:x:] Write a `Dog`, `Labrador` and `Chihuahua` class.
-- [:x:] All dogs have a name and can bark
+- [:heavy_check_mark:] Write a `Dog`, `Labrador` and `Chihuahua` class.
+- [:heavy_check_mark:] All dogs have a name and can bark
     - The actual barking sound is specific to the breed of dog.
         - A labrador has as its barking sound value "WOOF WOOF!"
         - A chihuahua has as its barking sound value "Kefkefkef!"
     - The name is specific to the actual instance of a dog.
-- [:x:] All dogs also have an average breed weight
+- [:heavy_check_mark:] All dogs also have an average breed weight
     - The actual value for the average breed weight is specific to the breed of dog.
         - A labrador has as its average breed weight, value 35 (Kg).
         - A chihuahua has as its average breed weight, value 2 (Kg).
@@ -296,8 +296,8 @@ But we will not include them in our solution!
     - We should be able to **get** the average breed weight for every dog
     - (It should not be possible to create instances of `Dog` itself)
 
-- [:x:] Chihuahuas also have a color field, it can be either Brown, Black or White.
-- [:x:] Override the `toString` method, it should contain the entire state of every dog.
+- [:heavy_check_mark:] Chihuahuas also have a color field, it can be either Brown, Black or White.
+- [:heavy_check_mark:] Override the `toString` method, it should contain the entire state of every dog.
     - For a labrador: "Labrador: (name = Labby, sound = WOOF WOOF!, average breed weight = 35)"
     - For a chihuahua: "Chihuahua: (name = Darling, sound = Kefkefkef!!, average breed weight = 2, color = Brown)"
 - [:x:] Override the `equals` method: two dogs are equal if they have the same name and make the same sound.
