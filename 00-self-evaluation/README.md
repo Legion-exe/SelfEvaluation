@@ -57,7 +57,7 @@ Please do this after each finished codelab. It will help us in keeping track of 
 - An override let a specific method "replaces" the original one (to read: the one that should normally be used by the system).
 8. [:x:] **What is meant with "arguments are passed-by-value"?**
    
-- (NA - Video has to be seen againg)
+- When executing a method, it is the value that will be taken. It is not a problem when using primitive variable, but it is more complex when using reference variable because method will take the value "at this time" and not the value of the "actualized reference".
 9. [:heavy_check_mark:] **Of what types can we create an array?**
    
 - Every type you want, but there can only be datas of the defining type in it.  
@@ -78,7 +78,7 @@ Please do this after each finished codelab. It will help us in keeping track of 
 - For allows the dev to limits the "area" with an operator in the condition, while Foreach will apply the method to each of the element of the array.
 15. [:x:] **A variable declared within the opening and closing parenthesis of a method is called a ____ variable?**
     
-- parameter (thanks Oracle docs...)
+- local
 16. [:heavy_check_mark:] **Why would you choose `long` over `int`?**
     
 - They do not have the same "amplitude" in terms of numbers that can be handled. For very large numbers, int are limited. It is the only reason for me as int takes less memory, so will be preferably chosen.
@@ -107,14 +107,28 @@ System.out.println("It is false");
 - I still have to watch the video again, already did for the previous stuff but not yet for OOP (also, waiting them to be available :D)
 1. [:x:] **The term "instance variable" is another name for ___ ? And, what is it exactly?**
    
-- 
+- It is the state of an object (the group of variables) at a certain point of time.
 2. [:x:] **The term "class variable" is another name for ___ ?**
+
+- static fields
 3. [:x:] **What are parameters?**
+
+- Variable of a method that can hold value
 4. [:x:] **What are arguments?**
+
+- the value of a parameter
 5. [:x:] **What is the return type void?**
+
+- it is nothing (which is =/= than a zero)
 6. [:x:] **What's an object? What's a class?**
+
+- Class is the blueprint and object is a realization of that blueprint
 7. [:x:] **What's state? What's behavior?**
+
+- /
 8. [:x:] **What is an instance?**
+
+- instance = object
 9. [:x:] **How do we create an object from a class?**
    
 - Declare the variable and object and set a constructor?
@@ -122,11 +136,17 @@ System.out.println("It is false");
     
 - Null is different from zero, it means there is no data. All relative type can hold it (they will not point to anything)
 11. [:x:] **What is an object reference?**
+
+- /
 12. [:x:] **What is data encapsulation? What role do the access modifiers play in it? Provide all access modifiers.**
+
+- encapsulation is making a part of the code (top-level or lower ones) hidden from the outside. Access modifiers are like gatekeepers and decide "who can access what"
 13. [:x:] **What is a constructor?**
+
+- a constructor let a method construc an object from a class. Every class will have at least 1 constructor (it is like the ingredient of the blueprint)
 14. [:x:] **What is the default constructor?**
     
-- It is a constructor without any set parameter
+- It is a constructor without any set parameters
 15. [:x:] **What is a package? Why do we use them?**
     
 It is like a pot where you can put the different java files containing the classes. Using the same "package" leads those files to be linked. You can use a class from another file in the same package, while let them be in a different files allow you to use "generic class" in multiple package (réutilisation du code).
@@ -134,25 +154,51 @@ It is like a pot where you can put the different java files containing the class
     
 - Enums are like dropdown list, they allows you to use a predefined set or value (so as said, you can use them when you are sure you will not need anything else in term of value that what's in the enum class)
 17. [:x:] **What's the difference between a static method and an instance method?**
+
+- /
 18. [:x:] **What is a constant?**
     
 - A constant is a variable that cannot be changed (value is fixed). It can be done via Final keyword
 19. [:x:] **What is inheritance? Why is it useful? Give an example.**
+
+- it allows to standardize some methods and states to different (sub-)classes.
 20. [:x:] **What is composition? Why is it useful? Give an example.**
+
+- If inheritance is "is-a" type of relation, composition is merely the same with "has-a" type of relation.
 21. [:x:] **What is polymorphism? Why is it useful? Give an example.**
+
+- The fact that Java allows us to reach "top"-classes (in case of inheritance or composition) to define the sub-class.
 22. [:x:] **What is meant with the sentence 'Class A extends / inherits from Class B'?**
+
+-Class A is a sub-class from classB, and therefore inherite state and method of ClassB
 23. [:x:] **What is the difference between a (parent) class and an (abstract) parent class?**
     
 - Abstract classes are only there to manage/organize your "children" classes. They cannot be used to define them or give a generic set of parameters, while parents classes do.
 - Also, abstract can force the "children" classes to set up specific methods (the ones that are in the abstract class, as seen those cannot be specified)
 24. [:x:] **What's the difference between an abstract class and an interface?**
+
+- Interface is like abstract class, but having only methods and properties that are abstract. Also, a normal class can have only 1 abstract top-class but many interface
 25. [:x:] **What is meant with the sentence 'Class A implements (interface) A'?**
+
+- ClassA implement the methods of A
 26. [:x:] **How does an object gets 'destroyed' and thrown out of the memory?**
+
+- When there is no variable containing data any longer
 27. [:x:] **What is the `Object` class?**
+
+- it is the default top-class
 28. [:x:] **To invert the value of a boolean, which operator would you use?**
+
+- !
 29. [:x:] **What is casting? explain widening/upcast and narrowing/downcast.**
+
+- It is creating an object on basis of a top/down-class. Upcasting is like Animal garfield=new Animal() while downcasting is like Cat animal= new Cat()
 30. [:x:] **What does the `final` keyword do?**
+
+-it fixes the value of a parameter
 31. [:x:] **What is the difference between `==` and `equals`?**
+
+- /
 
 ## Hands-on
 
