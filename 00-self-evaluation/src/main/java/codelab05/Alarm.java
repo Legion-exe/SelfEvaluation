@@ -7,11 +7,7 @@ public class Alarm {
         this.sound = alarm;
     }
 
-    public Alarm() {
-
-    }
-
-    public String[] makeSound(int timesAlarm) {
+        public String[] makeSound(int timesAlarm) {
 
         if (timesAlarm == 0) {
             String alarmSound[] = {"BEEP BEEP BEEP"};

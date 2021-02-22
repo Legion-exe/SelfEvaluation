@@ -1,11 +1,13 @@
 package codelab07;
 
-public abstract class Dog(String name) {
+public abstract class Dog() {
     String name;
-    String bark;
-    //int avWeigth;
 
-   // public abstract int averageBreedWeight();
+    public Dog(String name) {
+        this.name = name;
+    }
+
+
 
     public abstract String Bark();
 
