@@ -1,4 +1,4 @@
-package codelab07;
+/* package codelab07;
 
 public class Chihuahua extends Dog {
     String name;
@@ -18,3 +18,4 @@ public class Chihuahua extends Dog {
 
     }
 }
+*/

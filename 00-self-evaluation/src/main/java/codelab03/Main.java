@@ -14,13 +14,12 @@ public class Main {
     }
 
     public static char[][] createArrayForSize(int size) {
-
+//let @ be a constant
         //"filling arrays"
         if (size < 2) {
             System.out.println("size must be >=2, thanks !");
         } else if (size == 2) {
             char[] arrayH = {'@', '@'};
-
 
 
             System.out.println(Arrays.toString(arrayH));
@@ -39,8 +38,8 @@ public class Main {
             System.out.println(Arrays.toString(arrayH));
             for (int i = 0; i < size - 2; i++) {
                 //filling borders arrayV
-                arrayV[0]="@";
-                arrayV[arrayV.length-1]="@";
+                arrayV[0] = "@";
+                arrayV[arrayV.length - 1] = "@";
                 //printing
                 System.out.println(Arrays.toString(arrayV));
             }

@@ -1,4 +1,4 @@
-package codelab07;
+/* package codelab07;
 
 public class Labrador extends Dog {
     String name;
@@ -28,3 +28,4 @@ public class Labrador extends Dog {
             return decl;
         }
     }
+*/
